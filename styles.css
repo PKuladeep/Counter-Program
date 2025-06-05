@@ -1,0 +1,50 @@
+.Buttons {
+    background-color: rgba(48, 48, 178, 0.831);
+    color: white;
+    height: 75px;
+    width: 150px;
+    font-size: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.Buttons:hover {
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+.Buttons:active {
+    opacity: 0.5;
+}
+
+Body {
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.monitor {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(195, 194, 194);
+    margin-bottom: 12px;
+    border-radius: 2px;
+    max-width: 460px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Counter {
+    border-color: rgb(98, 98, 167);
+    border-width: 10px;
+    border-style: solid;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+#Title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(48, 48, 178);
+}
+
